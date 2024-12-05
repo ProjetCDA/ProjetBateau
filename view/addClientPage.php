@@ -13,7 +13,7 @@ require_once "./controller/addClientController.php"
 
 <body>
     <h1>Création de client</h1>
-    <form method="POST">
+    <form method="POST" >
 
         <label for="nom">Nom</label>
         <input type="text" name="nom">
@@ -26,8 +26,10 @@ require_once "./controller/addClientController.php"
 
         <label for="photoId">Photo d'identité</label>
         <input type="file" name="photoId">
-        <button type="submit" onsubmit="ajoutClient()">Valider</button>
+        <button type="submit" name="AjoutClientSubmit">Valider</button>
     </form>
+
+
 </body>
 
 </html>
