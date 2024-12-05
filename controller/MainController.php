@@ -1,6 +1,6 @@
 <?php 
-if (isset($_GET['page']) && $_GET['page'] == "addClient") {
-    include_once './view/addClientPage.php';
+if (isset($_GET['page']) && $_GET['page'] == "addClientPage") {
+    include_once '/view/addClientPage.php';
 }
 else{
     include_once './view/homePage.php';
